@@ -98,7 +98,7 @@ A deep learning project for generating emotionally styled captions for images us
 ## 📑 Notes
 
 - All training data is real (no dummy data).
-- Minimum 1000 COCO and 500 VIST samples are enforced.
+- Minimum of 1000 MSCOCO and 500 VIST samples are enforced.
 - The project is ready for deployment and further research.
 
 ---
@@ -107,4 +107,4 @@ A deep learning project for generating emotionally styled captions for images us
 
 - [MS COCO](https://cocodataset.org/) for image captions
 - [VIST](https://visionandlanguage.net/VIST/) for story inspiration
-- [TensorFlow](https://www.tensorflow.org/) and [Keras](https://keras.io/) for deep
+- [TensorFlow](https://www.tensorflow.org/) and [Keras](https://keras.io/) for deep learning
