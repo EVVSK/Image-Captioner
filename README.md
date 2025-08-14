@@ -1,6 +1,6 @@
 # Image Captioning with Emotional Styles
 
-A deep learning project for generating emotionally styled captions for images using a CNN+LSTM architecture. The model is trained on real MS COCO captions (neutral) and VIST-style emotional stories (happy, sad, melancholic, ecstatic, devastated). The project includes a Streamlit web app for interactive caption generation.
+A deep learning project for generating emotionally styled captions for images using a CNN+LSTM architecture. The model is trained on real MS COCO captions and VIST-style emotional stories (happy, sad, neutral, melancholic, ecstatic, devastated). The project includes a Streamlit web app for interactive caption generation.
 
 ---
 
@@ -23,7 +23,6 @@ A deep learning project for generating emotionally styled captions for images us
 
 - **Image Captioning**: Generates captions for images using deep learning.
 - **Emotional Styles**: Supports 6 styles: happy, neutral, sad, ecstatic, melancholic, devastated.
-- **Real Data**: Trained on 1000+ real MS COCO captions and 500+ VIST-style emotional stories.
 - **Interactive Web App**: Upload an image and select an emotion to generate a styled caption.
 - **Comprehensive Analysis**: Training graphs and dataset analysis included in the notebook.
 
@@ -43,7 +42,7 @@ A deep learning project for generating emotionally styled captions for images us
     ```
 
 3. **Prepare Data**
-    - The notebook (`ml.ipynb`) will automatically download and process the MS COCO dataset and generate VIST-style stories.
+    - MS COCO and VIST datasets must be downloaded first and then be trained on the notebook (`ml.ipynb`).
 
 4. **Train the Model**
     - Run all cells in `ml.ipynb` to process data, train the model, and save artifacts.
@@ -95,11 +94,9 @@ A deep learning project for generating emotionally styled captions for images us
 
 ---
 
-## 📑 Notes
+## Note
 
-- All training data is real (no dummy data).
-- Minimum of 1000 MSCOCO and 500 VIST samples are enforced.
-- The project is ready for deployment and further research.
+The current uploaded notebook (`ml.ipynb`) has been trained on MS COCO annotations (captions JSON) but does not download COCO images and the real VIST dataset is not used. “VIST-like” emotional stories are programmatically generated from templates. Training uses 8 synthetic gradient images generated locally. All samples are mapped to these for feature extraction with InceptionV3. For proper use, download the real datasets(links provided in Datasets) and then run the notebook on those downloaded models.
 
 ---
 
@@ -108,3 +105,4 @@ A deep learning project for generating emotionally styled captions for images us
 - [MS COCO](https://cocodataset.org/) for image captions
 - [VIST](https://visionandlanguage.net/VIST/) for story inspiration
 - [TensorFlow](https://www.tensorflow.org/) and [Keras](https://keras.io/) for deep learning
+
