@@ -1,11 +1,9 @@
-## Datasets
-
-- **MS COCO 2017**
+MS COCO 2017 Dataset
   - Website: https://cocodataset.org/#download
   - Annotations (train/val): http://images.cocodataset.org/annotations/annotations_trainval2017.zip
   - Train images (~18GB): http://images.cocodataset.org/zips/train2017.zip
   - Val images (~1GB): http://images.cocodataset.org/zips/val2017.zip
 
-- **VIST (Visual Storytelling)**
+VIST (Visual Storytelling) Dataset
   - Website (Download section): https://visionandlanguage.net/VIST/
   - Note: VIST provides annotations and Flickr image URLs; images are fetched via those URLs.
