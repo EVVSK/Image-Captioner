@@ -1,6 +1,6 @@
 # Image Captioning with Emotional Styles
 
-A deep learning project for generating emotionally styled captions for images using a CNN+LSTM architecture. The model is trained on real MS COCO captions and VIST-style emotional stories (happy, sad, neutral, melancholic, ecstatic, devastated). The project includes a Streamlit web app for interactive caption generation.
+A deep learning project for generating emotionally styled captions for images using a CNN+LSTM architecture. The model is trained on MS COCO captions and VIST-style emotional stories (happy, sad, neutral, melancholic, ecstatic, devastated). The project includes a Streamlit web app for interactive caption generation.
 
 ---
 
